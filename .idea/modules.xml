@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/layer-ssl-ingress-connector.iml" filepath="$PROJECT_DIR$/.idea/layer-ssl-ingress-connector.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../layer-ssl-termination-fqdn/.idea/layer-ssl-termination-fqdn.iml" filepath="$PROJECT_DIR$/../layer-ssl-termination-fqdn/.idea/layer-ssl-termination-fqdn.iml" />
+    </modules>
+  </component>
+</project>

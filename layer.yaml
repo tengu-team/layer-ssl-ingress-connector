@@ -1,0 +1,5 @@
+includes: ['layer:basic',
+           'layer-kubernetes-deployer',
+           'interface:ssl-termination',
+           'interface:http']
+repo: git@github.com:tengu-team/layer-ssl-ingress-connector.git

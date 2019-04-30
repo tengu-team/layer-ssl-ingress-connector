@@ -1,0 +1,16 @@
+options:
+  fqdns:
+    type: string
+    default: ''
+    description: |
+      Space-separated list of domain names. These will share the same certificate.
+  credentials:
+    type: string
+    default: ''
+    description: |
+      Space-separated username and password for basic authentication.
+  contact-email:
+    type: string
+    default: ''
+    description: |
+      Contact email for Let's Encrypt

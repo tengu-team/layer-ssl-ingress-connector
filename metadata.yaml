@@ -1,0 +1,19 @@
+name: ssl-ingress-connector
+summary: This charm deploys a connector between k8s-cluster and proxies
+maintainer: Sebastien Pattyn <sebastien.pattyn@tengu.io>
+description: |
+  This charm will connect your SSL termination proxy with a kubernetes cluster
+  and make sure that Ingress is deployed and the rules for the given FQDNS are added
+tags:
+  - cache-proxy
+  - security
+  - web_server
+requires:
+  kube-host:
+    interface: http
+    scope: container
+  ssl-termination:
+    interface: ssl-termination
+subordinate: true
+series: ['xenial', 'bionic']
+
