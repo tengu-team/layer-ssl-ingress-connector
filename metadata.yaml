@@ -15,5 +15,5 @@ requires:
   ssl-termination:
     interface: ssl-termination
 subordinate: true
-series: ['xenial', 'bionic']
+series: ['bionic']
 
